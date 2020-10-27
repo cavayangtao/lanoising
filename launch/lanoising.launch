@@ -1,0 +1,21 @@
+<launch>
+  <!-- rosbag play -->
+  <arg name="bag"/>
+  <param name="use_sim_time" value="true"/>
+
+  <node pkg="lanoising" type="lanoising.py" name="lanoising" output="screen" respawn="true">
+    <param name="gpr1_disappear_path" value="$(find lanoising)/models/gpr1_disappear.m"/>
+    <param name="gpr2_disappear_path" value="$(find lanoising)/models/gpr2_disappear.m"/>
+    <param name="mdn1_disappear_path" value="$(find lanoising)/models/mdn1_disappear.h5"/>
+    <param name="mdn2_disappear_path" value="$(find lanoising)/models/mdn2_disappear.h5"/>
+    <param name="gpr1_range_path" value="$(find lanoising)/models/gpr1_range.m"/>
+    <param name="gpr2_range_path" value="$(find lanoising)/models/gpr2_range.m"/>
+    <param name="mdn1_range_path" value="$(find lanoising)/models/mdn1_range.h5"/>
+    <param name="mdn2_range_path" value="$(find lanoising)/models/mdn2_range.h5"/>
+    <param name="gpr1_intensity_path" value="$(find lanoising)/models/gpr1_intensity.m"/>
+    <param name="gpr2_intensity_path" value="$(find lanoising)/models/gpr2_intensity.m"/>
+    <param name="mdn1_intensity_path" value="$(find lanoising)/models/mdn1_intensity.h5"/>
+    <param name="mdn2_intensity_path" value="$(find lanoising)/models/mdn2_intensity.h5"/>
+  </node>
+    
+</launch> 
