@@ -19,7 +19,7 @@ Anaconda3 recommended. With adaconda3, only tensorflow and keras need to be inst
 
 To make ROS and Anaconda3 compatible:
 
-'gedit ~/.bashrc'
+`gedit ~/.bashrc`
 
 add: 'source /opt/ros/kinetic/setup.bash'
 
