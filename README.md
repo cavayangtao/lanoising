@@ -43,10 +43,13 @@ download the lanoising package and decompress in your catkin workspace:
 
 `catkin_make`
 
+in new terminal:
 
 `roscore`
 
-`rviz rviz`
+in new terminal:
+
+`rviz`
 
 play the reference bag, in which human model is placed at 15m from sensor:
 
@@ -59,13 +62,15 @@ add topic /velodyne_points to show the reference data
 set the visibility in lanoising.py
 
 
-in catkin workspace:
+in new terminal and cd to catkin workspace:
 
-`source devel/setup.bash`
+```
+source devel/setup.bash
 
-`export PATH="/home/tyang/anaconda3/bin:$PATH"`
+export PATH="/home/tyang/anaconda3/bin:$PATH"
 
-`roslaunch lanoising lanoising.launch`
+roslaunch lanoising lanoising.launch
+```
 
 add topic /filtered_points to show the noising point cloud
 
@@ -76,7 +81,7 @@ If you publish work based on, or using, this dataset, we would appreciate citati
     @artical{taoy2020,
         author       = {Tao Yang, You Li, Yassine Ruichek, and Zhi Yan}},
         title        = {LaNoising: A Data-driven Approach for 903nm ToF LiDAR Performance Modeling under Fog},
-        conference      = {IROS},
+        conference   = {IROS},
         year         = 2020,
         }
 
