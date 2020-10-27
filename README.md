@@ -21,15 +21,15 @@ To make ROS and Anaconda3 compatible:
 
 `gedit ~/.bashrc`
 
-add: 'source /opt/ros/kinetic/setup.bash'
+add: `source /opt/ros/kinetic/setup.bash`
 
-delete: 'export PATH="/home/tyang/anaconda3/bin:$PATH"'
+delete: `export PATH="/home/tyang/anaconda3/bin:$PATH"`
 
-'source ~/.bashrc'
+`source ~/.bashrc`
 
 before launch the package:
 
-'export PATH="/home/tyang/anaconda3/bin:$PATH"'
+`export PATH="/home/tyang/anaconda3/bin:$PATH"`
 
 
 example:
@@ -39,18 +39,18 @@ download the models and put all the files in ./models:
 https://drive.google.com/file/d/1CoVrr3dVQ5DY4WpF7xCM9z6Vx7PYKW1w/view?usp=sharing
 
 
-download the lanoising package and decompress in your catkin workspace
+download the lanoising package and decompress in your catkin workspace:
 
-'catkin_make'
+`catkin_make`
 
 
-'roscore'
+`roscore`
 
-'rviz rviz'
+`rviz rviz`
 
 play the reference bag, in which human model is placed at 15m from sensor:
 
-'rosbag play -l --clock 2019-02-19-17-13-37.bag'
+`rosbag play -l --clock 2019-02-19-17-13-37.bag`
 
 in rviz, change Fixed frame to velodyne
 
@@ -61,11 +61,11 @@ set the visibility in lanoising.py
 
 in catkin workspace:
 
-'source devel/setup.bash'
+`source devel/setup.bash`
 
-'export PATH="/home/tyang/anaconda3/bin:$PATH"'
+`export PATH="/home/tyang/anaconda3/bin:$PATH"`
 
-'roslaunch lanoising lanoising.launch'
+`roslaunch lanoising lanoising.launch`
 
 add topic /filtered_points to show the noising point cloud
 
@@ -76,8 +76,7 @@ If you publish work based on, or using, this dataset, we would appreciate citati
     @artical{taoy2020,
         author       = {Tao Yang, You Li, Yassine Ruichek, and Zhi Yan}},
         title        = {LaNoising: A Data-driven Approach for 903nm ToF LiDAR Performance Modeling under Fog},
-        journal      = {IROS},
+        conference      = {IROS},
         year         = 2020,
-        publisher    = {IEEE}
         }
 
