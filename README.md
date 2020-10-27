@@ -76,7 +76,7 @@ add topic /filtered_points to show the noising point cloud
 
 
 ## Citation
-If you publish work based on, or using, this dataset, we would appreciate citations to the following:
+If you publish work based on, or using, this code, we would appreciate citations to the following:
 
     @artical{taoy2020,
         author       = {Tao Yang, You Li, Yassine Ruichek, and Zhi Yan}},
