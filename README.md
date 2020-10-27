@@ -1,5 +1,7 @@
 # lanoising
 
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-gree.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
 Noising the point cloud.
 
 The package is tested in Ubuntu 16.04, ROS kinetic 1.12.14, Python 3.6.
