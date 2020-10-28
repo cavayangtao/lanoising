@@ -83,7 +83,6 @@ If you publish work based on, or using, this code, we would appreciate citations
     @artical{taoy2020,
         author       = {Tao Yang, You Li, Yassine Ruichek, and Zhi Yan}},
         title        = {LaNoising: A Data-driven Approach for 903nm ToF LiDAR Performance Modeling under Fog},
-        conference   = {IROS},
-        year         = 2020,
+        conference   = {IROS 2020},
         }
 
