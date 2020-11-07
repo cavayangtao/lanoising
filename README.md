@@ -60,7 +60,7 @@ play the reference rosbag (point clouds recorded by velodyne LiDAR under clear w
 
 `rosbag play -l --clock 2019-02-19-17-13-37.bag`
 
-in rviz, change Fixed frame to "velodyne".
+in rviz, change the Fixed frame to "velodyne".
 
 add the topic "/velodyne_points" in rviz to show the reference data.
 
