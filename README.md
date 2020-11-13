@@ -48,7 +48,7 @@ download the models and put all the files in ./catkin_ws/src/lanoising/models:
 
 https://drive.google.com/file/d/1CoVrr3dVQ5DY4WpF7xCM9z6Vx7PYKW1w/view?usp=sharing
 
-or: https://pan.baidu.com/s/1ZFhiuWFYNuSCThR02bLO8A, with the code: ptio
+or: https://pan.baidu.com/s/1ZFhiuWFYNuSCThR02bLO8A with the code: ptio
 
 in the terminal:
 
