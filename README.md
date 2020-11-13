@@ -16,7 +16,7 @@ tensorflow 1.14.0
 
 keras 2.2.4
 
-Anaconda3 recommended. With adaconda3, only tensorflow and keras need to be installed.
+Anaconda3 is recommended. With Anaconda3, only tensorflow and keras need to be installed.
 
 To make ROS and Anaconda3 compatible, in a new terminal:
 
@@ -48,7 +48,7 @@ download the models and put all the files in ./catkin_ws/src/lanoising/models:
 
 https://drive.google.com/file/d/1CoVrr3dVQ5DY4WpF7xCM9z6Vx7PYKW1w/view?usp=sharing
 
-or: https://pan.baidu.com/s/1ZFhiuWFYNuSCThR02bLO8A with the code: ptio
+or: https://pan.baidu.com/s/1ZFhiuWFYNuSCThR02bLO8A, with the code: ptio
 
 in the terminal:
 
