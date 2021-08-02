@@ -1,4 +1,4 @@
-# lanoising
+# lanoising (IROS 2020 & T-ITS 2021)
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-gree.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
@@ -95,5 +95,14 @@ If you publish work based on, or using, this code, we would appreciate citations
         booktitle    = {In Proceedings of the 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
         month        = {October},
         year         = {2020},
+        }
+        
+    
+    @artical{yt21its,
+        author       = {Tao Yang, You Li, Yassine Ruichek, and Zhi Yan}},
+        title        = {Performance Modeling a Near-infrared ToF LiDAR under Fog: A Data-driven Approach},
+        booktitle    = {IEEE Transactions on Intelligent Transportation Systems},
+        month        = {July},
+        year         = {2021},
         }
 
