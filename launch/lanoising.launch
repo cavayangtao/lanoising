@@ -16,6 +16,12 @@
     <param name="gpr2_intensity_path" value="$(find lanoising)/models/gpr2_intensity.m"/>
     <param name="mdn1_intensity_path" value="$(find lanoising)/models/mdn1_intensity.h5"/>
     <param name="mdn2_intensity_path" value="$(find lanoising)/models/mdn2_intensity.h5"/>
+
+    <!-- uncomment here for custom topic names
+    <remap from="/velodyne_points" to="/your_lidar_topic"/>
+    <remap from="/filtered_points" to="/noisy_lidar_topic"/>
+    -->
+
   </node>
     
 </launch> 
