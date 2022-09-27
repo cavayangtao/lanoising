@@ -91,7 +91,7 @@ If you publish work based on, or using, this code, we would appreciate citations
 
     @inproceedings{yt20iros,
         author       = {Tao Yang and You Li and Yassine Ruichek and Zhi Yan},
-        title        = {{LaNoising}: A Data-driven Approach for {903nm} {ToF} {LiDAR} Performance Modeling under Fog},
+        title        = {LaNoising: A Data-driven Approach for {903nm} {ToF} {LiDAR} Performance Modeling under Fog},
         booktitle    = {Proceedings of the 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
         month        = {October},
         year         = {2020}
@@ -100,7 +100,7 @@ If you publish work based on, or using, this code, we would appreciate citations
         }      
     
     @artical{yt21its,
-        author       ={Yang, Tao and Li, You and Ruichek, Yassine and Yan, Zhi},
+        author       ={Tao Yang and You Li and Yassine Ruichek and Zhi Yan},
         journal      ={IEEE Transactions on Intelligent Transportation Systems}, 
         title        ={Performance Modeling a Near-Infrared ToF LiDAR Under Fog: A Data-Driven Approach}, 
         year         ={2022},
