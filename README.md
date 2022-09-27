@@ -101,6 +101,6 @@ If you publish work based on, or using, this code, we would appreciate citations
         author       = {Tao Yang, You Li, Yassine Ruichek, and Zhi Yan},
         title        = {Performance Modeling a Near-infrared ToF LiDAR under Fog: A Data-driven Approach},
         booktitle    = {IEEE Transactions on Intelligent Transportation Systems},
-        month        = {July},
-        year         = {2021}
+        month        = {August},
+        year         = {2022}
         }
