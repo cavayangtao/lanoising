@@ -95,12 +95,17 @@ If you publish work based on, or using, this code, we would appreciate citations
         booktitle    = {Proceedings of the 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
         month        = {October},
         year         = {2020}
+        pages        = {10084-10091},
+        doi          = {10.1109/IROS45743.2020.9341178}
         }      
     
     @artical{yt21its,
-        author       = {Tao Yang, You Li, Yassine Ruichek, and Zhi Yan},
-        title        = {Performance Modeling a Near-infrared ToF LiDAR under Fog: A Data-driven Approach},
-        booktitle    = {IEEE Transactions on Intelligent Transportation Systems},
-        month        = {August},
-        year         = {2022}
+        author       ={Yang, Tao and Li, You and Ruichek, Yassine and Yan, Zhi},
+        journal      ={IEEE Transactions on Intelligent Transportation Systems}, 
+        title        ={Performance Modeling a Near-Infrared ToF LiDAR Under Fog: A Data-Driven Approach}, 
+        year         ={2022},
+        volume       ={23},
+        number       ={8},
+        pages        ={11227-11236},
+        doi          ={10.1109/TITS.2021.3102138}
         }
